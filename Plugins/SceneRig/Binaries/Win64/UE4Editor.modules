@@ -1,0 +1,8 @@
+{
+	"BuildId": "873f64a8-be9d-43b0-ba22-020b690ff90f",
+	"Modules": 
+	{
+		"SceneRig": "UE4Editor-SceneRig.dll",
+		"TimeRig": "UE4Editor-TimeRig.dll"
+	}
+}

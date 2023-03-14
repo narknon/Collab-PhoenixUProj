@@ -1,0 +1,18 @@
+{
+	"BuildId": "873f64a8-be9d-43b0-ba22-020b690ff90f",
+	"Modules": 
+	{
+		"AIPathScheduler": "UE4Editor-AIPathScheduler.dll",
+		"AvaAnimationShim": "UE4Editor-AvaAnimationShim.dll",
+		"CreatureBehavior": "UE4Editor-CreatureBehavior.dll",
+		"DbAssetMapper": "UE4Editor-DbAssetMapper.dll",
+		"DbGateway": "UE4Editor-DbGateway.dll",
+		"GameScheduler": "UE4Editor-GameScheduler.dll",
+		"OnlineStore": "UE4Editor-OnlineStore.dll",
+		"PersistentData": "UE4Editor-PersistentData.dll",
+		"Phoenix": "UE4Editor-Phoenix.dll",
+		"PhoenixSignificanceManager": "UE4Editor-PhoenixSignificanceManager.dll",
+		"SceneRigShim": "UE4Editor-SceneRigShim.dll",
+		"SocialDisplay": "UE4Editor-SocialDisplay.dll"
+	}
+}

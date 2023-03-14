@@ -1,0 +1,9 @@
+{
+	"BuildId": "873f64a8-be9d-43b0-ba22-020b690ff90f",
+	"Modules": 
+	{
+		"AvaRenderTech": "UE4Editor-AvaRenderTech.dll",
+		"FluidSim": "UE4Editor-FluidSim.dll",
+		"VolumetricClouds": "UE4Editor-VolumetricClouds.dll"
+	}
+}
