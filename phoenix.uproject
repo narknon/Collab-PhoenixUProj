@@ -101,6 +101,10 @@
 		}
 	],
 	"Plugins": [
+        {
+			"Name": "UnrealPSKPSA",
+			"Enabled": true
+		},
 		{
 			"Name": "BinkMedia",
 			"Enabled": true
