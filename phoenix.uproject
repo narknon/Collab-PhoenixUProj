@@ -102,6 +102,14 @@
 	],
 	"Plugins": [
         {
+			"Name": "AssetDumper",
+			"Enabled": true
+		},
+        {
+			"Name": "AssetGenerator",
+			"Enabled": true
+		},
+		{
 			"Name": "UnrealPSKPSA",
 			"Enabled": true
 		},

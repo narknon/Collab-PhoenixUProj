@@ -16,7 +16,7 @@
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "++UE4+Release-4.27",
-		"BuildId": "4641d48f-173c-4f76-bb26-86200b238285"
+		"BuildId": "6993e17e-6d8d-4986-b88a-550b952cd3db"
 	},
 	"BuildProducts": [
 		{
@@ -33,6 +33,22 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-Cmd.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetDumper/Binaries/Win64/UE4Editor-AssetDumper.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetDumper/Binaries/Win64/UE4Editor-AssetDumper.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetGenerator/Binaries/Win64/UE4Editor-AssetGenerator.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetGenerator/Binaries/Win64/UE4Editor-AssetGenerator.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -1857,6 +1873,14 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/ChromaSDKPlugin/Binaries/Win64/UE4Editor-ChromaSDKPlugin.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/ElgEditorScripting/Binaries/Win64/UE4Editor-ElgEditorScripting.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/ElgEditorScripting/Binaries/Win64/UE4Editor-ElgEditorScripting.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -5948,6 +5972,14 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/AssetDumper/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetGenerator/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/UnrealPSKPSA/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -6536,6 +6568,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/ElgEditorScripting/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/EnginePlugins/Developer/WInstrumentedProfilers/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -6819,6 +6855,14 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/phoenix.uproject",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetDumper/AssetDumper.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetGenerator/AssetGenerator.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -7479,6 +7523,10 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/DirectorCam/DirectorCam.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/ElgEditorScripting/ElgEditorScripting.uplugin",
 			"Type": "UFS"
 		},
 		{
